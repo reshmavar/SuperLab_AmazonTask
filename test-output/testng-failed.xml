@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon Functional Tests(failed)">
+    <classes>
+      <class name="testcases.Step4_UpdateQuantity">
+        <methods>
+          <include name="setUp"/>
+          <include name="testUpdateCartQuantity"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Step4_UpdateQuantity -->
+      <class name="testcases.Step1_SearchNonExisting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSearchInvalidProduct"/>
+        </methods>
+      </class> <!-- testcases.Step1_SearchNonExisting -->
+      <class name="testcases.Step3_AddToCart">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAddToCart"/>
+        </methods>
+      </class> <!-- testcases.Step3_AddToCart -->
+      <class name="testcases.Step2_SearchExisting">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSearchLaptop"/>
+        </methods>
+      </class> <!-- testcases.Step2_SearchExisting -->
+      <class name="testcases.Step5_RemoveFromCart">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testRemoveFromCart"/>
+        </methods>
+      </class> <!-- testcases.Step5_RemoveFromCart -->
+    </classes>
+  </test> <!-- Amazon Functional Tests(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->
